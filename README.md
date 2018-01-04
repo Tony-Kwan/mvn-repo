@@ -2,7 +2,7 @@
 
 ## pom.xml
 
-```
+```xml
     <repositories>
         <repository>
             <id>pygzx-mvn-repo</id>
