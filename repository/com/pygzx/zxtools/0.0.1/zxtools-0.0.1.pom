@@ -24,6 +24,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<dependency>
 			<groupId>com.quickutil</groupId>
 			<artifactId>platform</artifactId>
 			<version>1.2.4</version>
@@ -38,16 +43,6 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>org.springframework</groupId>-->
-			<!--<artifactId>spring-aop</artifactId>-->
-			<!--<version>${spring.version}</version>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.aspectj</groupId>-->
-			<!--<artifactId>aspectjweaver</artifactId>-->
-			<!--<version>1.8.10</version>-->
-		<!--</dependency>-->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
@@ -68,6 +63,11 @@
 			<groupId>biz.paluch.redis</groupId>
 			<artifactId>lettuce</artifactId>
 			<version>3.5.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.3.0</version>
 		</dependency>
 	</dependencies>
 
