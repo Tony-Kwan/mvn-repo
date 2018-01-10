@@ -14,7 +14,7 @@
         <dependency>
             <groupId>com.pygzx</groupId>
             <artifactId>zxtools</artifactId>
-            <version>0.0.1</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 ```
